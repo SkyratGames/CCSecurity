@@ -5,7 +5,14 @@
   "name": "CC: Security",
   "description": "ComputerCraft Security Peripherals",
   "authors": [
-    "Skyrat",
+    {
+      "name": "Skyrat",
+      "contact":
+      {
+        "email": "mods@skyrat.dev",
+        "discord": "Skyrat#0001"
+      }
+    },
     "Bashvie"
   ],
   "contact": {},
@@ -14,7 +21,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "dev.skyrat.ccsecurity.client.CcsecurityClient"
+      "dev.skyrat.ccsecurity.client.CCSecurityClient"
     ],
     "main": [
       "dev.skyrat.ccsecurity.CCSecurity"

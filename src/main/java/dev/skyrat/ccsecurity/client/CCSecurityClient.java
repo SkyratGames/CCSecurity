@@ -5,7 +5,7 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 
 @Environment(EnvType.CLIENT)
-public class CcsecurityClient implements ClientModInitializer {
+public class CCSecurityClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
