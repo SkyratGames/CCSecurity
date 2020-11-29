@@ -1,2 +1,2 @@
 #+TITLE: CC: Security
-#+DESCRIPTION: A peripherals addon for CC: Restitched focused around security features for multiplayer servers.
+** A peripherals addon for CC: Restitched focused around security features for multiplayer servers.
