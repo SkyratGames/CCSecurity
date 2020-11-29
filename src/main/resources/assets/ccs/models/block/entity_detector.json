@@ -1,8 +1,8 @@
 {
 	"__comment": "Designed by BashVie with Cubik Studio",
 	"textures": {
-		"texture": "ccs:blocks/entity_detector",
-		"particle": "ccs:blocks/entity_detector"
+		"texture": "ccs:block/entity_detector",
+		"particle": "ccs:block/entity_detector"
 	},
 	"elements": [ 	 
 		{
