@@ -1,7 +1,7 @@
 {
     "itemGroup.ccs.general": "CC: Security",
     "block.ccs.entity_detector": "Entity Detector",
-    "text.autoconfig.ccs.title": "CC: Security Settings"
+    "text.autoconfig.ccs.title": "CC: Security Settings",
     "text.autoconfig.ccs.option.entityDetector": "Entity Detector",
     "text.autoconfig.ccs.option.entityDetector.detectInvisible": "Detect Invisible Entities",
     "text.autoconfig.ccs.option.entityDetector.range": "Detection Range"
