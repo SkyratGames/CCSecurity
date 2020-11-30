@@ -19,7 +19,7 @@
     "issues": "https://github.com/SkyratGames/CCSecurity/issues"
   },
   "license": "GPL-3.0",
-  "icon": "assets/cc-security/icon.png",
+  "icon": "assets/ccs/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
