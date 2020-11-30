@@ -28,17 +28,27 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
+    // Config stuff
     modApi("me.shedaniel.cloth:config-2:4.8.3") {
         exclude(group: "net.fabricmc.fabric-api")
     }
+    modApi("me.sargunvohra.mcmods:autoconfig1u:3.3.1") {
+        exclude(group: "net.fabricmc.fabric-api")
+    }
+    include "me.sargunvohra.mcmods:autoconfig1u:3.3.1"
 
+    // Mod menu integration for config
+    modImplementation "io.github.prospector:modmenu:1.14.13+build.21"
+
+
+    // The only reason we wrote this mod
     modApi 'curse.maven:ccrestitched:3057829'
     modRuntime 'curse.maven:ccrestitched:3057829' // RESTITCHED :)
 
+    // CC:R dependencies
     modRuntime 'javax.vecmath:vecmath:1.5.2'      // Might want to figure out how to do this
     modRuntime 'blue.endless:jankson:1.2.0'        // Automatically at some point.
     modRuntime 'me.shedaniel.cloth.api:cloth-utils-v1:1.4.5'
-    modRuntime 'me.shedaniel.cloth:config-2:4.8.1'
 }
 
 processResources {

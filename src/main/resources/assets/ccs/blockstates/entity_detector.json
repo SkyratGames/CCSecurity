@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model":  "ccs:block/entity_detector" }
+    "": {
+      "model": "ccs:block/entity_detector"
+    }
   }
 }

@@ -1,21 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "cc-security",
+  "id": "ccs",
   "version": "${version}",
   "name": "CC: Security",
   "description": "ComputerCraft Security Peripherals",
   "authors": [
     {
       "name": "Skyrat",
-      "contact":
-      {
+      "contact": {
         "email": "mods@skyrat.dev",
         "discord": "Skyrat#0001"
       }
     },
     "Bashvie"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "",
+    "issues": "https://github.com/SkyratGames/CCSecurity/issues"
+  },
   "license": "GPL-3.0",
   "icon": "assets/cc-security/icon.png",
   "environment": "*",
@@ -25,6 +27,9 @@
     ],
     "main": [
       "dev.skyrat.ccsecurity.CCSecurity"
+    ],
+    "modmenu": [
+      "dev.skyrat.ccsecurity.client.CCSModMenu"
     ]
   },
   "mixins": [
@@ -33,6 +38,7 @@
   "depends": {
     "fabricloader": ">=0.10.8",
     "fabric": "*",
-    "minecraft": "1.16.4"
+    "minecraft": "1.16.4",
+    "computercraft": ">=1.91.2"
   }
 }

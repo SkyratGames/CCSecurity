@@ -6,7 +6,7 @@ Inspired by [[https://github.com/PC-Logix/OpenSecurity][OpenSecurity]]
 |----------------------------------+-----------|
 | Feature                          | Status    |
 |----------------------------------+-----------|
-| Entity Detector Block            | WIP       |
+| Entity Detector Block            | COMPLETE  |
 | Magnetic Cards (Read/Write)      | PLANNED   |
 | RFID Cards (Read/Write)          | PLANNED   |
 | Secure Door with Door Controller | PLANNED   |
