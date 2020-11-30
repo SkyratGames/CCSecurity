@@ -11,11 +11,6 @@ import net.fabricmc.api.Environment;
 @Environment(EnvType.CLIENT)
 public class CCSModMenu implements ModMenuApi {
     @Override
-    public String getModId() {
-        return CCSRegistry.MOD_ID;
-    }
-
-    @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
         return parent -> AutoConfig.getConfigScreen(CCSConfig.class, parent).get();
     }
