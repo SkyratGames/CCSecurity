@@ -1,2 +1,18 @@
 #+TITLE: CC: Security
-** A peripherals addon for CC: Restitched focused around security features for multiplayer servers.
+A peripherals addon for CC: Restitched focused around security features for multiplayer servers.
+Inspired by [[https://github.com/PC-Logix/OpenSecurity][OpenSecurity]]
+
+* Features
+|----------------------------------+-----------|
+| Feature                          | Status    |
+|----------------------------------+-----------|
+| Entity Detector Block            | WIP       |
+| Magnetic Cards (Read/Write)      | PLANNED   |
+| RFID Cards (Read/Write)          | PLANNED   |
+| Secure Door with Door Controller | PLANNED   |
+| Keypad                           | PLANNED   |
+| Biometric Terminal               | PLANNED   |
+| Alarm                            | POTENTIAL |
+| Phase Blocks                     | POTENTIAL |
+| Roll Door                        | POTENTIAL |
+|----------------------------------+-----------|
