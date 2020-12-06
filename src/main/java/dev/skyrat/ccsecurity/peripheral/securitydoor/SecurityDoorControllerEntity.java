@@ -1,4 +1,4 @@
-package dev.skyrat.ccsecurity.peripheral.entitydetector;
+package dev.skyrat.ccsecurity.peripheral.securitydoor;
 
 import dan200.computercraft.api.peripheral.IPeripheral;
 import dan200.computercraft.api.peripheral.IPeripheralTile;
@@ -10,11 +10,11 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.NotNull;
 
-public class EntityDetectorBlockEntity extends TileGeneric implements IPeripheralTile {
+public class SecurityDoorControllerEntity extends TileGeneric implements IPeripheralTile {
 
-    private final EntityDetectorPeripheral peripheral;
+    private final SecurityDoorControllerPeripheral peripheral;
 
-    public EntityDetectorBlockEntity(BlockEntityType<? extends EntityDetectorBlockEntity> type) {
+    public SecurityDoorControllerEntity(BlockEntityType<? extends SecurityDoorControllerEntity> type) {
         super(type);
         this.peripheral = new Peripheral(this);
     }
@@ -24,10 +24,10 @@ public class EntityDetectorBlockEntity extends TileGeneric implements IPeriphera
         return this.peripheral;
     }
 
-    private static final class Peripheral extends EntityDetectorPeripheral {
-        private final EntityDetectorBlockEntity detector;
+    private static final class Peripheral extends SecurityDoorControllerPeripheral {
+        private final SecurityDoorControllerEntity detector;
 
-        private Peripheral(EntityDetectorBlockEntity detector) {
+        private Peripheral(SecurityDoorControllerEntity detector) {
             this.detector = detector;
         }
 

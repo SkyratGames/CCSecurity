@@ -14,4 +14,12 @@ public class CCSConfig implements ConfigData {
         public boolean detectInvisible = false;
         public int range = 16;
     }
+
+    public static class Magstripe {
+        public int capacity = 128;
+    }
+
+    public static class Rfid {
+        public int capacity = 32;
+    }
 }

@@ -12,9 +12,4 @@ public class EntityDetectorBlock extends BlockGeneric {
     public EntityDetectorBlock(Settings settings, BlockEntityType<? extends TileGeneric> type) {
         super(settings, type);
     }
-
-    @Override
-    public BlockRenderType getRenderType(BlockState state) {
-        return BlockRenderType.MODEL;
-    }
 }

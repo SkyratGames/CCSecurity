@@ -4,6 +4,7 @@
   "package": "dev.skyrat.ccsecurity.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "TallPlantBlockInvoker"
   ],
   "client": [
   ],

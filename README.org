@@ -12,6 +12,7 @@ Inspired by [[https://github.com/PC-Logix/OpenSecurity][OpenSecurity]]
 | Secure Door with Door Controller | PLANNED   |
 | Keypad                           | PLANNED   |
 | Biometric Terminal               | PLANNED   |
+| Cryptography Block               | PLANNED   |
 | Alarm                            | POTENTIAL |
 | Phase Blocks                     | POTENTIAL |
 | Roll Door                        | POTENTIAL |

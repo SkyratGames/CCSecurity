@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "ccs:block/security_door_bottom",
+    "top": "ccs:block/security_door_top"
+  }
+}
