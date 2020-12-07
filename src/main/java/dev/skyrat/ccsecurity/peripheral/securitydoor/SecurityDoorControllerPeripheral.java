@@ -35,7 +35,7 @@ public abstract class SecurityDoorControllerPeripheral implements IPeripheral {
     public abstract Vec3d getPosition();
 
     public void addDoor(SecurityDoorBlock door) {
-        Doors.add(door);
+        //Doors.add(door);
     }
 
     public void removeDoor(SecurityDoorBlock door) {
@@ -49,16 +49,16 @@ public abstract class SecurityDoorControllerPeripheral implements IPeripheral {
 
     @LuaFunction()
     public final void toggleLock() {
-        Doors.forEach(door -> door.toggleLock());
+        //Doors.forEach(door -> door.toggleLock());
     }
 
     @LuaFunction
     public final void setLock(boolean locked) {
-        Doors.forEach(door -> door.setLocked(locked));
+        //Doors.forEach(door -> door.setLocked(locked));
     }
 
     @LuaFunction
     public final void setOpen(boolean open) {
-        Doors.forEach(door -> door.setOpen(open));
+        //Doors.forEach(door -> door.setOpen(open));
     }
 }

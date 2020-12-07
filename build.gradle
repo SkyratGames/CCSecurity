@@ -67,8 +67,8 @@ dependencies {
 
 
     // The only reason we wrote this mod
-    modApi 'curse.maven:ccrestitched:3057829'
-    modRuntime 'curse.maven:ccrestitched:3057829' // RESTITCHED :)
+    modApi 'curse.maven:ccrestitched-406876:3057829'
+    modRuntime 'curse.maven:ccrestitched-406876:3057829' // RESTITCHED :)
 
     // CC:R dependencies
     modRuntime 'javax.vecmath:vecmath:1.5.2'      // Might want to figure out how to do this
