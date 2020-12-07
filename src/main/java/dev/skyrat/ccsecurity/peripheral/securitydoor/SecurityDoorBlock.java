@@ -174,6 +174,12 @@ public class SecurityDoorBlock extends Block {
             this.playOpenCloseSound(world, blockPos, bl);
         }
     }
+    public void setLocked(World world, BlockState blockState, BlockPos blockPos, boolean bl) {
+        if (blockState.isOf(this) && (Boolean)blockState.get(LOCKED) != bl) {
+            world.setBlockState(blockPos, (BlockState)blockState.with(LOCKED, bl), 10);
+            this.playOpenCloseSound(world, blockPos, bl);
+        }
+    }
 
 
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
@@ -225,21 +231,5 @@ public class SecurityDoorBlock extends Block {
         SOUTH_SHAPE = Block.createCuboidShape(0.0D, 0.0D, 13.0D, 16.0D, 16.0D, 16.0D);
         EAST_SHAPE = Block.createCuboidShape(13.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
         WEST_SHAPE = Block.createCuboidShape(0.0D, 0.0D, 0.0D, 3.0D, 16.0D, 16.0D);
-    }
-
-    public void toggleOpen() {
-
-    }
-
-    public void toggleLock() {
-
-    }
-
-    public void setLocked(boolean locked) {
-
-    }
-
-    public void setOpen(boolean open) {
-
     }
 }
